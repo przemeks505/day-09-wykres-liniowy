@@ -1,0 +1,25 @@
+Tak, Twoje pliki mogą się synchronizować z GitHub.com, ale proces ten nie jest automatyczny. Musisz ręcznie zarządzać wersjami i przesyłaniem plików do swojego repozytorium na GitHub. Oto ogólny przewodnik, jak to zrobić:
+
+1. **Inicjalizacja Repozytorium Lokalnego:**
+   - Utwórz folder na swoim komputerze, gdzie chcesz przechowywać pliki.
+   - Otwórz terminal i przejdź do tego folderu.
+   - Uruchom `git init`, aby zainicjować nowe repozytorium Git.
+
+2. **Podłączenie Repozytorium GitHub:**
+   - Utwórz nowe repozytorium na GitHub.com.
+   - Skopiuj URL tego repozytorium.
+   - Powiąż swoje lokalne repozytorium z GitHub, używając `git remote add origin [URL]`.
+
+3. **Dodawanie Plików do Śledzenia:**
+   - Użyj `git add [nazwa_pliku]` lub `git add .` aby dodać wszystkie pliki do śledzenia.
+
+4. **Commitowanie Zmian:**
+   - Po dodaniu plików, zatwierdź je używając `git commit -m "Twoja wiadomość o commitcie"`.
+
+5. **Wysyłanie na GitHub (Push):**
+   - Aby wysłać zatwierdzone zmiany na GitHub, użyj `git push origin master` lub `git push origin main`, w zależności od nazwy głównej gałęzi w twoim repozytorium.
+
+6. **Aktualizacja Lokalnego Repozytorium (Pull):**
+   - Jeśli pracujesz na różnych komputerach lub są inne osoby wprowadzające zmiany, możesz chcieć pobrać najnowsze zmiany z GitHuba używając `git pull`.
+
+Pamiętaj, że każda zmiana, której dokonasz lokalnie, nie zostanie automatycznie przesłana na GitHub. Musisz użyć poleceń `git add`, `git commit` i `git push`, aby ręcznie zarządzać tymi zmianami. Podobnie, aktualizacje z GitHuba nie zostaną automatycznie zaciągnięte do twojego lokalnego repozytorium bez użycia `git pull`.
