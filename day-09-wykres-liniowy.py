@@ -26,6 +26,8 @@ chart_data = pd.DataFrame(
 
 st.line_chart(chart_data)
 
+
+st.header('Wyświetl wykres, korzystając z biblioteki Altair')
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 
 c = (
