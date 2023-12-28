@@ -17,6 +17,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
+import altair as alt
+from vega_datasets import data
 
 st.header('Wykres linowy')
 
@@ -41,8 +43,6 @@ st.altair_chart(c, use_container_width=True)
 # Motyw Altair
 st.header('Spójrzmy na przykład wykresów z motywem Streamlit i natywnym motywem Altair:')
 
-import altair as alt
-from vega_datasets import data
 
 source = data.cars()
 
