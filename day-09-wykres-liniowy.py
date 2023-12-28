@@ -1,4 +1,4 @@
-#%%
+#%% Nauka
 
 """
 Polecenie st.line_chart
