@@ -61,3 +61,4 @@ with tab1:
 with tab2:
     # Use the native Altair theme.
     st.altair_chart(chart, theme=None, use_container_width=True)
+# %%
